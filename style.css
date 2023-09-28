@@ -24,7 +24,7 @@ body {
 
 .wrap section {
     background-color: #ffffff;
-    /* margin-top: 15px; */
+    margin-top: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 75px 10px 15px 15px;
@@ -40,27 +40,29 @@ a {
 }
 
 nav a {
-    color: rgb(224, 120, 0);
+    /* color: rgb(224, 120, 0); */
     text-decoration: none;
-    background-color: rgb(148, 212, 241);
-    padding: 15px 15px 15px 15px;
-    border-radius: 25px 0 25px 0;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    /* background-color: rgb(148, 212, 241); */
+    /* padding: 15px 15px 15px 15px; */
+    /* border-radius: 25px 0 25px 0; */
+    margin-left: 10px;
+    /* margin-bottom: 5%; */
     font-size: 1.5rem;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 a:hover {
     color: rgb(127, 109, 231);
 }
 
-nav a:hover {
+/* nav a:hover {
     background-color: rgb(255, 255, 255);
-}
+} */
 
 section img {
     width: 30%;
+    padding-left: 2px;
+    padding-top: 5px;
 }
 
 section a {
